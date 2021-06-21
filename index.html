@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Input the number of elements of the array:</h3>
+    <input type='text' id='array'>
+    <button type="button" onclick='create_array()'>Creat A New Array</button>
+    <button onclick='reset()'>Reset</button>
+    <h3 id='creat_array'></h3>
+    <div style='display:none' id='input'>
+        <h4><i>Input a number to check:</i></h4>
+        <input type='number' id='number'>
+        <button type="button" onclick="check()">Check</button> <br>
+        <p><progress class='progress_color' max="100" value="0" id="tientrinh" style='width:800px; height:30px; display:none'></progress></p>
+    </div>
+    <h3 id='check'></h3>
+    <h4 id='result'></h4>
+    <script src='my.js'></script>
+</body>
+</html>
