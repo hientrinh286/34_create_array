@@ -50,6 +50,11 @@ function check(){
     document.getElementById('tientrinh').value= percent;
     document.getElementById('tientrinh').innerHTML = percent+'%';
 }
+function sort(){
+    a.sort();
+    var s = a.join(' ');
+    document.getElementById('result').innerHTML = 'New array after sort: '+s;
+}
 function reset(){
     location.reload();
 }
